@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    align-items: center; /* ✅ Bars ko bottom se align karne ke liye */
+    justify-content: center; /* ✅ Bars ko center me lane ke liye */
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+#box-container {
+    display: flex;  /* ✅ Ye wrapper hai toh flex dena hoga */
+}
+.box {
+    width: 30px; /* ✅ Har box ka width */
+    background-color: rgb(255, 255, 255); /* ✅ Default color */
+    transition: height 0.3s ease-in-out, background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 16px;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+body{
+    background-color: rgb(117, 103, 131);
+}
+button{
+    border: 1px solid rgb(167, 119, 119);
+    cursor: pointer;
+    height: 7vh;
+    width: 10vw;
+    border-radius: 30px;
+    background-color: rgb(69, 66, 65);
+    margin-top: 5vh;
+    margin-left: 50vw;
+    color: white;
+}
+h2{
+    margin-top: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}

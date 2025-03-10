@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Page Background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Button Styling */
+.btn {
+    text-decoration: none;
+    color: white;
+    background: #ff8c00;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.btn:hover {
+    background: #ffa500;
+    transform: scale(1.1);
+}

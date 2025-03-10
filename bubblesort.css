@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    align-items: flex-end; /* ✅ Bars ko bottom se align karne ke liye */
+    justify-content: center; /* ✅ Bars ko center me lane ke liye */
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    align-items: baseline;
+    gap: 5px;
+    background-color: white;
+}
+
+.bar {
+    width: 30px; /* ✅ Har bar ki width */
+    background-color: red; /* ✅ Default color */
+    transition: height 0.3s ease-in-out, background-color 0.3s;
+    position: relative;
+}
+body{
+    background-color: rgb(117, 103, 131);
+}
+button{
+    border: 1px solid rgb(167, 119, 119);
+    cursor: pointer;
+    height: 7vh;
+    width: 10vw;
+    border-radius: 30px;
+    background-color: rgb(69, 66, 65);
+    margin-top: 5vh;
+    margin-left: 50vw;
+    color: white;
+}
+h2{
+    margin-top: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}

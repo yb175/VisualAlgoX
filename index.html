@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisualAlgoX</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>VisualAlgoX</h1>
+        <p>Decode Complexity, Visualize Clarity.</p>
+        <div class="buttons">
+            <button class="btn1">Visualize Data Structures</button>
+            <button class="btn2">Visualize Algorithms</button>
+        </div>
+    </div>
+    <script>
+        const btn1 = document.querySelector('.btn1');
+        const btn2 = document.querySelector('.btn2');
+        btn1.addEventListener('click', () => {
+            window.location.href = 'datastructure.html';
+        });
+        btn2.addEventListener('click', () => {
+            window.location.href = 'algorithm.html';
+        });
+    </script>
+</body>
+</html>
